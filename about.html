@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(12, 0, 44);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(6, 0, 31);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgba(255, 255, 255, 0.696);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+
+        .first-section-title{
+            color:rgb(255, 0, 234);
+            font-size:2rem;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        #para-1{
+            align-items:center;
+            color:white;
+            font-size:1.08rem;
+            width:50%;
+            margin:40px 400px;
+            
+        }
+        #para-2{
+            align-items:center;
+            color:white;
+            font-size:1.08rem;
+            width:50%;
+            margin:30px 400px;
+            
+        }
+        #para-3{
+            align-items:center;
+            
+            font-size:2rem;
+            width:50%;
+            margin:30px 400px;
+            
+        }
+        #element {
+            color: rgb(180, 79, 253);
+        }
+        .secondSection {
+            margin: 50px;
+        }
+
+        .secondSection .box {
+            display: flex;
+            background-color: white;
+            width: 84vw;
+            height: 2px;
+            margin: 80px auto;
+        }
+
+        .secondSection .vertical {
+            background-color: white;
+
+            height: 50px;
+            width: 2px;
+            margin: 0px 160px;
+        }
+
+        .img-top {
+            width: 40px;
+            position: relative;
+            top: -40px;
+            left: -20px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 20px;
+            left: -75px;
+            width: 200px;
+        }
+
+        .vertical-desc {
+            color: gray;
+            font-size: 15px;
+            position: relative;
+            top: 40px;
+            left: -75px;
+            width: 200px;
+        }
+
+        footer {
+            Background-color: rgb(3, 3, 76);
+            height: 205px;
+        }
+
+        .footerSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 300px 150px;
+        }
+
+        .first-footer {
+            color: white;
+        }
+
+        .second-footer ul li {
+            list-style: none;
+        }
+
+        .third-footer ul li {
+            list-style: none;
+
+        }
+
+        .forth-footer ul>li,
+        a {
+            list-style: none;
+            color: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Suniket's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <section class="first-section">
+                <h4 class="first-section-title">Hello! My name is Suniket Pargaonkar</h4>
+                <p id="para-1">I completed my PG Diploma in Advanced Computing from C-DAC, Thiruvanthapuram, Kerala,
+                    where I achieved an overall score of 75.13%.My solid academic foundation has equipped me
+                    with a strong technical skill set and problem-solving abilities.
+                </p>
+                <p id="para-2">I possess skills like Java, Spring Boot, Web technologies like HTML, CSS, JavaScript,
+                    ReactJs and Databases like MySQL and MongoDb. These skills have honed my programming skills and
+                    allowed me to apply my knowledge in practical scenarios
+                </p>
+                <p id="para-3"><span id="element"></span></p>
+
+            </section>
+            <section class="secondSection">
+                <span class="gray-text">What I have done so far</span>
+                <h1>Education</h1>
+
+                <div class="box">
+                    <div class="vertical">
+                        <img class="img-top" src="education.png" alt="">
+                        <div class="vertical-title">
+                            10th (2012)
+                        </div>
+                        <div class="vertical-desc">
+                            Maharashta State Board | SSC 10th
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="img-top" src="education.png" alt="">
+                        <div class="vertical-title">
+                            Diploma in Engineering (2013-2016)
+                        </div>
+                        <div class="vertical-desc">
+                            Diploma in Mechanical Engineering | MSBTE , Mumbai.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="img-top" src="education.png" alt="">
+                        <div class="vertical-title">
+                            Bachelor of Engineering (2016-2019)
+                        </div>
+                        <div class="vertical-desc">
+                            Mechanical Engineering | University of Mumbai.
+                        </div>
+                    </div>
+                    <div class="vertical">
+                        <img class="img-top" src="education.png" alt="">
+                        <div class="vertical-title">
+                            PG-Diploma in Advanced Computing (2022-2023)
+                        </div>
+                        <div class="vertical-desc">
+                            PG Diploma | C-DAC, Thiruvanathapuram, Kerala.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <footer>
+            <div class="footerSection">
+                <div class="first-footer">
+                    <h3>Suniket's Developer Potfolio</h3>
+                </div>
+                <div class="second-footer">
+                    <ul>
+                        <li>Home</li>
+                        <li>About Me</li>
+                        <li>Projects</li>
+                        <li>Contact Me</li>
+                    </ul>
+                </div>
+                <div class="third-footer">
+                    <h4>CONTACT</h4>
+                    <ul>
+                        <li>PHONE: +919028979448</li>
+                        <li>E-MAIL: suniket95.sp@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="forth-footer">
+                    <h4>Visit Me</h4>
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/suniketp/">LinkedIn</a>
+                        </li>
+                        <li><a href="">Instagram</a></li>
+                        <li>
+                            <a href="https://github.com/Suniket39">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ["Currently I am intern in CodeClause as a Web Developement Intern."],
+            typeSpeed: 40,
+        });
+    </script>
+</body>
+
+</html>
